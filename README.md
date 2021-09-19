@@ -1,6 +1,4 @@
-# Python/Numba resources in HPC
-
-Comparison of HPC approaches in the Python environment for a 5-point stencil test problem, with examples using Numba running on the Santos Dumont supercomputer (SD).
+# HPC approaches in the Python environment for a 5-point stencil test problem, with examples using Numba running on the Santos Dumont supercomputer (SD).
 
 Other implementations, and more information, can be found in the repository:
 
