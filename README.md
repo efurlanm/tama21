@@ -1,4 +1,4 @@
-# HPC approaches using Numba
+# HPC approach with implementation using Numba
 
 HPC approaches in the Python environment for a 5-point stencil test problem, with examples using Numba running on the Santos Dumont supercomputer (SD).
 
