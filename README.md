@@ -2,6 +2,8 @@
 
 HPC approaches in the Python environment for a 5-point stencil test problem, with examples using Numba running on the Santos Dumont supercomputer (SD).
 
+Some implementations were made that are in the Jupyter Notebook files in this repository.
+
 Other implementations, and more information, can be found in the repository:
 
 https://github.com/efurlanm/bs21
