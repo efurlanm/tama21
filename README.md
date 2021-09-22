@@ -1,12 +1,16 @@
-# HPC approach with implementation using Numba
+# Example of HPC approach in Python environment using Numba compiler
 
-HPC approaches in the Python environment for a 5-point stencil test problem, with examples using Numba running on the Santos Dumont supercomputer (SD).
+This repository contains examples of HPC approaches in Python environment for a 5-point stencil test problem, using the high-performance Python compiler Numba, running on the Santos Dumont (SD) supercomputer. The implementations are in the Jupyter Notebook files. Other implementations and information can be found in [this other repository](https://github.com/efurlanm/bs21).
 
-Some implementations were made that are in the Jupyter Notebook files in this repository.
+Notebooks (in Portuguese):
 
-Other implementations, and more information, can be found in the repository:
+* [acesso_sd.ipynb](https://github.com/efurlanm/tama21/blob/main/acesso_sd.ipynb) - short introduction about setting up SD access and using the local computer
+* [numba-cpu.ipynb]() - Implementation in Fortran 90, Python, and Numba
+* [numba-cpu-mpi.ipynb]() - Parallel implementation using MPI and running on SD using the Slurm task and resource manager
+* [numba-sequana-gpu-threads.ipynb]() - CPU and GPU implementation using threads and running on Sequana node
+* [numba-sequana-mpi.ipynb]() - CPU implementation using MPI and running on Sequana node
 
-https://github.com/efurlanm/bs21
+
 
 
 ## Links of interest
