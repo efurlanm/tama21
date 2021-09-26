@@ -1,14 +1,21 @@
 # Example of HPC approach in Python environment using Numba compiler
 
-This repository contains examples of HPC approaches in Python environment for a 5-point stencil test problem, using the high-performance Python compiler Numba, running on the Santos Dumont (SD) supercomputer. The implementations are in the Jupyter Notebook files. Other implementations and information can be found in [this other repository](https://github.com/efurlanm/bs21).
+This repository contains examples of HPC approaches in Python environment for a 5-point stencil test problem, using the high-performance Python compiler Numba, running on the Santos Dumont (SD) supercomputer. Also includes examples running on Google Colab (GC). The implementations are in the Jupyter Notebook files. Other implementations and information can be found in [this other repository](https://github.com/efurlanm/bs21).
 
-Notebooks (in Portuguese):
+SD Notebooks (in Portuguese):
 
-* [acesso_sd.ipynb](https://github.com/efurlanm/tama21/blob/main/acesso_sd.ipynb) - short introduction about setting up SD access and using the local computer
-* [numba-cpu.ipynb](https://github.com/efurlanm/tama21/blob/main/numba-cpu.ipynb) - Implementation in Fortran 90, Python, and Numba
-* [numba-cpu-mpi.ipynb](https://github.com/efurlanm/tama21/blob/main/numba-cpu-mpi.ipynb) - Parallel implementation using MPI and running on SD using the Slurm task and resource manager
-* [numba-sequana-gpu-threads.ipynb](https://github.com/efurlanm/tama21/blob/main/numba-sequana-gpu-threads.ipynb) - CPU and GPU implementation using threads and running on Sequana node
-* [numba-sequana-mpi.ipynb](https://github.com/efurlanm/tama21/blob/main/numba-sequana-mpi.ipynb) - CPU implementation using MPI and running on Sequana node
+* [acesso_sd.ipynb](http://github.com/efurlanm/tama21/blob/main/acesso_sd.ipynb) - short introduction about setting up SD access and using the local computer
+* [numba-cpu.ipynb](http://github.com/efurlanm/tama21/blob/main/numba-cpu.ipynb) - Implementation in Fortran 90, Python, and Numba
+* [numba-cpu-mpi.ipynb](http://github.com/efurlanm/tama21/blob/main/numba-cpu-mpi.ipynb) - Parallel implementation using MPI and running on SD using the Slurm task and resource manager
+* [numba-sequana-gpu-threads.ipynb](http://github.com/efurlanm/tama21/blob/main/numba-sequana-gpu-threads.ipynb) - CPU and GPU implementation using threads and running on Sequana node
+* [numba-sequana-mpi.ipynb](http://github.com/efurlanm/tama21/blob/main/numba-sequana-mpi.ipynb) - CPU implementation using MPI and running on Sequana node
+
+GC Notebooks (similar to those described above):
+
+* [GC-acesso.ipynb](http://github.com/efurlanm/tama21/blob/main/GC-acesso.ipynb)
+* [GC-numba-cpu.ipynb](http://github.com/efurlanm/tama21/blob/main/GC-numba-cpu.ipynb)
+* [GC-numba-cpu-mpi.ipynb](http://github.com/efurlanm/tama21/blob/main/GC-numba-cpu-mpi.ipynb)
+* [GC-numba-cpu.ipynb](http://github.com/efurlanm/tama21/blob/main/GC-numba-cpu.ipynb)
 
 
 
