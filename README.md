@@ -4,11 +4,11 @@ This repository contains examples of HPC approaches in Python environment for a 
 
 SD Notebooks (in Portuguese):
 
-* [acesso_sd.ipynb](http://github.com/efurlanm/tama21/blob/main/acesso_sd.ipynb) - short introduction about setting up SD access and using the local computer
-* [numba-cpu.ipynb](http://github.com/efurlanm/tama21/blob/main/numba-cpu.ipynb) - Implementation in Fortran 90, Python, and Numba
-* [numba-cpu-mpi.ipynb](http://github.com/efurlanm/tama21/blob/main/numba-cpu-mpi.ipynb) - Parallel implementation using MPI and running on SD using the Slurm task and resource manager
-* [numba-sequana-gpu-threads.ipynb](http://github.com/efurlanm/tama21/blob/main/numba-sequana-gpu-threads.ipynb) - CPU and GPU implementation using threads and running on Sequana node
-* [numba-sequana-mpi.ipynb](http://github.com/efurlanm/tama21/blob/main/numba-sequana-mpi.ipynb) - CPU implementation using MPI and running on Sequana node
+* [SD-acesso.ipynb](http://github.com/efurlanm/tama21/blob/main/acesso_sd.ipynb) - short introduction about setting up SD access and using the local computer
+* [SD-numba-cpu.ipynb](http://github.com/efurlanm/tama21/blob/main/numba-cpu.ipynb) - Implementation in Fortran 90, Python, and Numba
+* [SD-numba-cpu-mpi.ipynb](http://github.com/efurlanm/tama21/blob/main/numba-cpu-mpi.ipynb) - Parallel implementation using MPI and running on SD using the Slurm task and resource manager
+* [SD-numba-sequana-gpu-threads.ipynb](http://github.com/efurlanm/tama21/blob/main/numba-sequana-gpu-threads.ipynb) - CPU and GPU implementation using threads and running on Sequana node
+* [SD-numba-sequana-mpi.ipynb](http://github.com/efurlanm/tama21/blob/main/numba-sequana-mpi.ipynb) - CPU implementation using MPI and running on Sequana node
 
 GC Notebooks (similar to those described above):
 
