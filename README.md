@@ -1,6 +1,6 @@
 # Example of HPC approach in Python environment using Numba compiler
 
-This repository contains examples of HPC approaches in Python environment for a 5-point stencil test problem, using the high-performance Python compiler Numba, running on the Santos Dumont (SD) supercomputer. Also includes examples running on Google Colab (GC). The implementations are in the Jupyter Notebook files. Other implementations and information can be found in [this other repository](https://github.com/efurlanm/bs21).
+This repository contains examples of HPC approaches in Python environment to a 5-point stencil test problem, using the high-performance Python compiler Numba, running on the Santos Dumont (SD) supercomputer, and also includes examples running on Google Colab (GC) . The implementations are in the Jupyter Notebook files. Other implementations and information can be found in [this other repository](https://github.com/efurlanm/bs21).
 
 SD Notebooks (in Portuguese):
 
