@@ -19,7 +19,6 @@ GC Notebooks (similar to those described above):
 
 
 
-
 ## Links of interest
 
 * LNCC. SD Manual. https://sdumont.lncc.br/support_manual.php
