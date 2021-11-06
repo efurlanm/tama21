@@ -2,6 +2,13 @@
 
 This repository contains examples of HPC approaches in Python environment to a 5-point stencil test problem, using the high-performance Python compiler Numba, running on the Santos Dumont (SD) supercomputer, and also includes examples running on Google Colab (GC) . The implementations are in the Jupyter Notebook files. Other implementations and information can be found in [this other repository](https://github.com/efurlanm/bs21).
 
+
+Directories
+
+* 2021-10-04 detailed
+* 2021-11-08 how to run
+
+
 SD Notebooks (in Portuguese):
 
 * [SD-acesso.ipynb](http://github.com/efurlanm/tama21/blob/main/SD-acesso.ipynb) - short introduction about setting up SD access using the local computer
