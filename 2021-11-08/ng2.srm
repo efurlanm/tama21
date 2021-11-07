@@ -1,0 +1,40 @@
+#!/bin/bash
+#SBATCH --job-name ng2          # Job name
+#SBATCH --partition nvidia_dev # Select partition
+#SBATCH --ntasks-per-node=2    # Tasks per node
+#SBATCH --nodes=2              # Minimum to be allocated
+#SBATCH --ntasks=4             # Total tasks
+#SBATCH --time=00:20:00        # Limit execution time
+#SBATCH --exclusive            # Exclusive acccess to nodes
+
+echo '========================================'
+echo '- Job ID:' $SLURM_JOB_ID
+echo '- Tasks per node:' $SLURM_NTASKS_PER_NODE
+echo '- # of nodes in the job:' $SLURM_JOB_NUM_NODES
+echo '- # of tasks:' $SLURM_NTASKS
+echo '- Dir from which sbatch was invoked:' ${SLURM_SUBMIT_DIR##*/}
+cd $SLURM_SUBMIT_DIR
+echo -n '- List of nodes allocated to the job: '
+nodeset -e $SLURM_JOB_NODELIST
+
+# Environment
+echo '-- modules ----------------------------'
+echo 'conda activate env2, --stack env3'
+cd
+SCR=/scratch${PWD#/prj}
+cd $SCR
+source $SCR/env2/etc/profile.d/conda.sh
+conda activate $SCR/env2
+conda activate --stack $SCR/env3
+cd $SCR/b715
+
+# Executable
+EXEC="python ng2.py"
+
+# Start
+OPT='--mpi=pmi2 --cpu_bind=cores --distribution=block:cyclic'
+echo '-- run --------------------------------'
+echo '$ srun -n' $SLURM_NTASKS ${EXEC##*/}
+echo '-- output -----------------------------'
+srun  $OPT  -n $SLURM_NTASKS  $EXEC  | sort
+echo '~~ end ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
