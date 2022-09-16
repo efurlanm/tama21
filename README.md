@@ -1,29 +1,6 @@
 # Example of HPC approach in Python environment using Numba compiler
 
-This repository contains examples of HPC approaches in Python environment to a 5-point stencil test problem, using the high-performance Python compiler Numba, running on the Santos Dumont (SD) supercomputer, and also includes examples running on Google Colab (GC) . The implementations are in the Jupyter Notebook files. Other implementations and information can be found in [this other repository](https://github.com/efurlanm/bs21).
-
-
-Directories
-
-* 2021-10-04 detailed
-* 2021-11-08 how to run
-
-
-SD Notebooks (in Portuguese):
-
-* [SD-acesso.ipynb](http://github.com/efurlanm/tama21/blob/main/SD-acesso.ipynb) - short introduction about setting up SD access using the local computer
-* [SD-numba-cpu.ipynb](http://github.com/efurlanm/tama21/blob/main/SD-numba-cpu.ipynb) - Implementation in Fortran 90, Python, and Numba
-* [SD-numba-cpu-mpi.ipynb](http://github.com/efurlanm/tama21/blob/main/SD-numba-cpu-mpi.ipynb) - Parallel implementation using MPI running on SD, and using the Slurm task and resource manager
-* [SD-numba-sequana-gpu-threads.ipynb](http://github.com/efurlanm/tama21/blob/main/SD-numba-sequana-gpu-threads.ipynb) - CPU and GPU implementation using threads and running on Sequana node
-* [SD-numba-sequana-mpi.ipynb](http://github.com/efurlanm/tama21/blob/main/SD-numba-sequana-mpi.ipynb) - CPU implementation using MPI and running on Sequana node
-
-GC Notebooks (similar to those described above):
-
-* [GC-acesso.ipynb](http://github.com/efurlanm/tama21/blob/main/GC-acesso.ipynb)
-* [GC-numba-cpu.ipynb](http://github.com/efurlanm/tama21/blob/main/GC-numba-cpu.ipynb)
-* [GC-numba-cpu-mpi.ipynb](http://github.com/efurlanm/tama21/blob/main/GC-numba-cpu-mpi.ipynb)
-* [GC-numba-cpu.ipynb](http://github.com/efurlanm/tama21/blob/main/GC-numba-cpu.ipynb)
-
+This repository contains examples of HPC approaches in Python environment to a 5-point stencil test problem, using the high-performance Python compiler Numba, running on the Santos Dumont (SD) supercomputer, and also includes examples running on Google Colab (GC). The implementations are in the Jupyter Notebook files.
 
 
 ## Links of interest
